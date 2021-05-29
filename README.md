@@ -1,4 +1,2 @@
 # practice
 ctci problem solutions
-
-- [ ]
