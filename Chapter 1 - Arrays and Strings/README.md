@@ -2,12 +2,12 @@
 
 Progress:
 
-- [X] 1: Is Unique
+- [] 1: Is Unique
 - [ ] 2: Check Permutation
-- [ ] 3: Palindrome Permutation
-- [ ] 4: One Away
-- [ ] 
-- [ ] 1.6
-- [ ] 1.7
-- [ ] 1.8
-- [ ] 1.9
+- [ ] 3: URLify
+- [X] 4: Palindrome Permutation
+- [ ] 5: One Away
+- [ ] 6: String Compression
+- [ ] 7: Rotate Matrix
+- [ ] 8: Zero Matrix
+- [ ] 9: String Rotation
