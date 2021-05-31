@@ -3,7 +3,7 @@
 Progress:
 
 - [ ] 1: Is Unique
-- [ ] 2: Check Permutation
+- [X] 2: Check Permutation
 - [ ] 3: URLify
 - [X] 4: Palindrome Permutation
 - [ ] 5: One Away

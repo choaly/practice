@@ -51,10 +51,10 @@ However, the ostream operators are overloaded to deal with char; instead of disp
 they display the ASCII representation of the char, i.e., 'a'.
 
 NOTES:
-- I should have clarified and asked if the permutation comparison is case sensitive (e.g., is God a permutation of dog?) and if whitespace
-  is significant. Luckily, the book said to assume that the comparison is case sensitive and whitespace is significant
+- Should have asked if the permutation comparison is case sensitive (e.g., is God a permutation of dog?) and if whitespace
+  is significant. Book assumes that the comparison is case sensitive and whitespace is significant
   (so, "God    " is different from "dog").
-- For the freq array, if I made the size 128 I would have been assuming that the character set was ASCII.
+- For the freq array, making the size 128 would have been assuming that the character set was ASCII.
   Always ask about the size of the character set (should be 256 if strings could include characters in the extended ASCII table).
 
 TIME COMPLEXITY:
@@ -66,11 +66,9 @@ O(1). Only need space for a 256-element (or 128-element) array
 
 
 int main() {
-
 	cout << isPermutation("hello", "ohell") << endl; // true
 	cout << isPermutation("red", "blue") << endl; //false
 	cout << isPermutation("@ppl3", "pp3l@") << endl; //true
-
 	return 0;
 }
 
